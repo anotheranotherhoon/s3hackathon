@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# Section 3 Mini Hackathon
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. 기획하기
+- [x] Figma를 사용해 여러분이 만들어보고 싶은 애플리케이션의 프로토타입을 만들어보세요.
+- [x] 핵심 기능을 하나 정하세요. <br/>(Optional) 가능하다면 API를 사용하는 기능을 넣어서 기획해보세요. API 요청을 연습할 수 있을 뿐 아니라, 프로젝트를 좀 더 풍성하게 꾸밀 수 있습니다.
+- [x] 와이어프레임을 그리며 화면을 디자인해보세요. 단, 페이지 개수는 3개를 넘지 않게 해주세요.
+- [x] 와이어프레임을 프로토타입으로 고도화 시켜서 Figma를 완성해보세요.
+## 2. 컴포넌트 만들기
+- [x] 최소 1개의 컴포넌트를 만든 후, Storybook으로 문서화까지 완료합니다<br/>  버튼 1개라도 괜찮으니 컴포넌트를 만들고 문서화하는 작업을 꼭 해보시기 바랍니다.
 
-## Available Scripts
+## 3. Storybook 배포하기
+- [ ] 컴포넌트 문서화까지 완료했다면, Storybook을 배포해보겠습니다.
+- [ ] Storybook 빌드하기 <br/> ```npm run build-storybook```
+- [ ] 여러분의 Github에 새로운 레포지토리를 생성하고 storybook-static 폴더 안에 있는 파일들을 업로드합니다.
+- [ ] Storybook 배포하기 **Netlify를 사용해보는 것을 추천드립니다.**<sup> 가능하면 Github 아이디로 가입해주세요.</sup>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 4. 제출하기
+- [ ]  과제 제출 페이지에 기획하기에서 완성한 Figma 링크와 Storybook 배포하기에서 나온 배포 링크를 제출해주세요.
