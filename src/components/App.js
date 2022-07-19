@@ -39,8 +39,15 @@ const App = () => {
       setIsLoading(true)
       let data = restaurantList
       let oldWish = wishToGo
-      let wishData = data.filter((el)=>el.UC_SEQ === id)
+      let wishData = data.filter((el)=>el.UC_SEQ === id)[0]
       let newWish = oldWish.concat(wishData)
+      let idx=oldWish.map((el)=>el.UC_SEQ)
+      console.log("idx : ", idx,"wish :" ,wishData.UC_SEQ)
+      if(idx.includes(wishData.UC_SEQ)){
+        alert("이미 저장한 식당입니다!")
+        setIsLoading(false)
+        return 
+      }
       setWishToGo(newWish)
       setIsLoading(false)
   }
