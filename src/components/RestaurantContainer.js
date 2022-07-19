@@ -6,10 +6,10 @@ const MainConatiner = styled.div`
 `;
 
 
-const RestaurantContainer = ({restaurantList}) => {
+const RestaurantContainer = ({restaurantList,handleWishTogo}) => {
     return (
         <MainConatiner>
-            {restaurantList.map((data, idx)=><Restaurant data={data} key={idx}/>)}
+            {restaurantList.map((data, idx)=><Restaurant data={data} key={idx} handleWishTogo={handleWishTogo}/>)}
         </MainConatiner>
         
     )
