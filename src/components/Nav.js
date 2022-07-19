@@ -20,11 +20,11 @@ const LinkTo = styled(Link)`
     color: white;
 `
 
-const Nav = ({option,handleLocation}) => {
+const Nav = () => {
     return(
         <NavContainer>
             <NavItem><LinkTo to="/review">review</LinkTo></NavItem>
-            <NavItem><LinkTo to="/wishlist">wishlist</LinkTo></NavItem>
+            <NavItem><LinkTo to="/wishtogo">wishToGo</LinkTo></NavItem>
         </NavContainer>
     )
 }

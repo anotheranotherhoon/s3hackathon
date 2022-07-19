@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
 import Home from "../routes/Home"
-import WishListContainer from "../routes/WishListContainer"
+import WishToGoContainer from "../routes/WishToGoContainer"
 import Review from "../routes/Review"
 
 
@@ -9,7 +9,7 @@ const Router = ({isLoading,restaurantList,locationFilter,wishToGo,handleWishTogo
         <div>
             <Routes>
                 <Route path="/" element={<Home isLoading={isLoading} restaurantList={restaurantList} locationFilter={locationFilter} handleWishTogo={handleWishTogo} />}/>
-                <Route path="/wishlist" element={<WishListContainer wishToGo={wishToGo} />}/>
+                <Route path="/wishtogo" element={<WishToGoContainer wishToGo={wishToGo} />}/>
                 <Route path="/review" element={<Review />}/>
             </Routes>
         </div>

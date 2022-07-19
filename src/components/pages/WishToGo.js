@@ -4,7 +4,7 @@ const BusinessName = styled.div`
     font-size:1.5rem;
 `
 
-const WishList = ({data, idx}) =>{
+const WishToGo = ({data, idx}) =>{
     return(
         <div>
             <div key={data.UC_SEQ}>
@@ -16,4 +16,4 @@ const WishList = ({data, idx}) =>{
     )
 }
 
-export default WishList;
+export default WishToGo;
