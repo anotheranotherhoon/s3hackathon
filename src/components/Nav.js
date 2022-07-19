@@ -20,11 +20,16 @@ const LinkTo = styled(Link)`
     color: white;
 `
 
-const Nav = () => {
+const Nav = ({option,handleLocation}) => {
     return(
         <NavContainer>
             <NavItem><LinkTo to="/review">review</LinkTo></NavItem>
             <NavItem><LinkTo to="/wishlist">wishlist</LinkTo></NavItem>
+            <select onChange={handleLocation}>
+                {option.map((el,idx) => (
+                    <option value={el} key={idx}>{el}</option>
+                ))}
+            </select>
         </NavContainer>
     )
 }
